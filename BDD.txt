@@ -1,0 +1,40 @@
+1.
+The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
+Example Input: 3
+Example Output: 3
+
+2.
+The program takes single-letter words beginning with a vowel except for words beggining with the letter "y" and adds "way" to the end.
+Example Input: i
+Example Output: iway
+
+3.
+The program takes multiple-letter words beggining with a vowel except for words beggining with the letter "y" and adds "way" to the end.
+Example Input: example
+Example Output: exampleway
+
+4.
+The program takes words beggining with a single consonant or words that begin with the letter "y" and moves it to the end of the word and then adds "ay".
+Example Input: bird / yellow
+Example Output: ird-b-ay / ellow-y-ay
+
+5.
+The program takes words beggining with multiple consonants -as well as words begging with the letter "y" with following consonants- and moves them to the end of the word and then adds "ay".
+Example Input: trampoline / ybor
+Example Output: ampoline-tr-ay / or-yb-ay
+
+6.
+The program takes words beggining with "qu" and moves it to the end of the word and then adds "ay".
+Example Input: quiet
+Example Output: iet-qu-ay
+
+7.
+The program takes words beggining with a consonant followed by "qu" and moves all three to the end of the word and then adds "ay".
+Example Input: squeal
+Example Output: eal-squ-ay
+
+8.
+The program takes words beggining with multiple consonants followed by "qu" and moves all of them to the end of the word and then adds "ay".
+Example Input: thqueal
+Example Output: eal-thqu-ay
+
